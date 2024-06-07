@@ -1,0 +1,111 @@
+.booking-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/restaurant.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ensure it covers the full viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.booking-text-container {
+  width: 600px;
+}
+
+.booking-title {
+  font-family: "Markazi Text", serif;
+  color:#F4CE14;
+  font-size: 60px;
+  width: 300px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.booking-subtitle {
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: [col] 150px [col] 150px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border: 0;
+  padding: 0 40px 40px 40px;
+}
+
+.input-layout label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+
+.grid-name{
+  grid-column: col / span 2;
+  grid-row: row;
+}
+
+.grid-date {
+  grid-column: col 1 / span 1;
+  grid-row: row 2;
+}
+
+.grid-time {
+  grid-column: col 2 / span 1;
+  grid-row: row 2;
+}
+
+.grid-guest {
+  grid-column: col 1 / span 1;
+  grid-row: row 3;
+}
+
+.grid-occassion {
+  grid-column: col 2 / span 1;
+  grid-row: row 3;
+}
+
+.grid-button {
+  grid-column: col / span 1;
+  grid-row: row 4;
+}
+
+.name-input, .date-input, .time-input, .guest-input, .occassion-input{
+  background-color: #EDEFEE;
+  border: none;
+  padding: 5px;
+}
+
+.name-input {
+  height: 30px;
+  width: 330px;
+}
+
+.date-input, .guest-input{
+  height: 30px;
+  width: 150px;
+}
+
+.time-input, .occassion-input {
+  height: 40px;
+  width: 150px;
+}
+
+.button-input {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #F4CE14;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;;
+}

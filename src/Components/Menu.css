@@ -1,0 +1,100 @@
+/* Menu */
+
+.menu {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  max-width: 1200px;
+}
+
+.menu-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-text {
+  font-family: "Markazi Text", serif;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.online-menu-btn {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #F4CE14;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 15px;;
+}
+
+.card-container{
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  align-items: start;
+
+}
+
+.card-content {
+  padding: 0px 30px 30px 30px;
+  background-color: #EDEFEE;
+  
+}
+
+.dish-img {
+  margin: 0px;
+  padding: 0px;
+  width: 350px;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dish-heading-container {
+  font-family: "Markazi Text", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dish-name {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.dish-price {
+  font-size: 30px;
+  font-weight: 500;
+  color: #EE9972;
+}
+
+.dish-description {
+  font-family: "Karla", sans-serif;
+  color: #495E57;
+  font-size: 20px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

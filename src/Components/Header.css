@@ -1,0 +1,59 @@
+/* Hero Section */
+
+header {
+  background-color: #495E57;
+}
+
+.hero-section {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero-image {
+  width: 400px;
+  height: 399px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.title {
+  color: #F4CE14;
+  font-family: "Markazi Text", serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "Markazi Text", serif;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.description {
+  font-family: "Karla", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.reserve-button {
+  font-family: "Karla", sans-serif;
+  background-color: #F4CE14;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+
+}

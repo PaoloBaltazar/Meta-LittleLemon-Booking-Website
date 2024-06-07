@@ -1,0 +1,32 @@
+.confirmed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #949494;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.booking-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.booking-details p br {
+  font-weight: bold;
+}
+
+
+.booking-details {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}

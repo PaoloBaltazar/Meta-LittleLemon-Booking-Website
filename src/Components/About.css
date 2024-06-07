@@ -1,0 +1,55 @@
+/* About */
+
+.about {
+  height: 100vh;
+  align-content: center;
+  
+}
+
+.about-section {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  max-width: 1200px;
+  width: 100%;
+  
+}
+
+.about-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.about-title {
+  color: #495E57;
+  font-family: "Markazi Text", serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+
+.about-subtitle {
+  color: #EE9972;
+  font-family: "Markazi Text", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.about-description {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+
+
+

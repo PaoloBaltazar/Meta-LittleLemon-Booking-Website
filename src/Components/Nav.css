@@ -1,0 +1,48 @@
+
+/* Navbar */
+
+.nav-container{
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it stays on top of other elements */
+  background-color: white; /* Ensures background color remains */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.nav-item {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar a {
+  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none; /* Removes underline */
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 30px
+}

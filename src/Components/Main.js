@@ -42,9 +42,10 @@ const Main = () => {
   }
 
   const navigate = useNavigate();
+
   function submitForm (formData){
     if(submitAPI(formData)){
-      navigate("/confirmed", {state: { formData } });
+      navigate("/confirmed", {state: { formData}} );
     }
   }
 

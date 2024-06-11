@@ -1,12 +1,12 @@
 import heroImage from '../Assets/HeroImage.jpg'
 import { Link } from 'react-router-dom';
-import "./Header.css"
+import "./Hero.css"
 
-const Header = () => {
+const Hero = () => {
   return (
     <>
       <header>
-        <section className="hero-section">
+        <section id="hero" className="hero-section">
           <div className="text-section">
             <h2 className="title">Little Lemon</h2>
             <h3 className="subtitle">Chicago</h3>
@@ -24,4 +24,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Hero;

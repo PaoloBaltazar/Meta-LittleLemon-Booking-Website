@@ -1,6 +1,7 @@
-
+/* Footer Section */
 
 footer {
+  font-family: "Karla", sans-serif;
   background-color: #f7f4e6;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -9,27 +10,91 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: start; /* Center items vertically */
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  gap: 20px;
+  
 }
 
-.footer-list{
-  list-style-type: none;
-}
-
-.footer-list h3 {
-  font-family: "Markazi Text", serif;
-  font-size: 30px;
+.footer-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
 }
 
 .footer-list li {
-  font-family: "Karla", sans-serif;
-  font-size: 20px;
+  list-style-type: none;
+  font-size: 16px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-list li:hover {
+  color: #495E57;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-list h3 {
+  font-size: 25px;
 }
 
 .footer-logo {
   margin-top: 40px;
   height: 180px;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align social images */
+}
+
+.social-img {
+  height: 30px;
+  margin: 5px; /* Add margin for spacing */
+}
+
+.copyright-text {
+  margin-top: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Ensure it takes full width */
+  text-align: center; /* Center align text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center; /* Center align items on smaller screens */
+  }
+
+  .footer-logo {
+    height: 150px;
+  }
+
+  .footer-list {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .social-container {
+    flex-direction: row; /* Arrange social images in a row */
+  }
+
+  .social-img {
+    margin: 0; /* Adjust margin for spacing */
+  }
 }

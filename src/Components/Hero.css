@@ -1,0 +1,159 @@
+/* Hero Section */
+
+header {
+  background-color: #495E57;
+}
+
+.hero-section {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Changed from 'start' to 'flex-start' for consistency */
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+  overflow: hidden; /* Ensure no overflow */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.hero-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.title {
+  color: #F4CE14;
+  font-family: "Markazi Text", serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "Markazi Text", serif;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.description {
+  font-family: "Karla", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.reserve-button {
+  font-family: "Karla", sans-serif;
+  background-color: #F4CE14;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.reserve-button:hover {
+  opacity: 0.8;
+}
+
+.reserve-button:active {
+  opacity: 0.4;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-image {
+    width: 400px;
+    height: 400px; /* Maintain aspect ratio */
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 18px;
+    max-width: 600px; /* Use max-width for better control */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 400px; /* Use max-width for better control */
+  }
+
+  .reserve-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 300px; /* Use max-width for better control */
+    height: 300px; /* Maintain aspect ratio */
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .reserve-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

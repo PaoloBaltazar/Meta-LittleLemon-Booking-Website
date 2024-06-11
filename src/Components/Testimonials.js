@@ -1,13 +1,22 @@
-import ProfilePic1 from "../Assets/TestimonialPicture1.jpg"
-import ProfilePic2 from "../Assets/TestimonialPicture2.jpg"
-import ProfilePic3 from "../Assets/TestimonialPicture3.jpg"
-import ProfilePic4 from "../Assets/TestimonialPicture4.jpg"
-import "./Testimonials.css"
+import React from 'react';
+import { testimonials } from '../data';
+import './Testimonials.css';
+
+const renderStars = (rating) => {
+  const stars = [];
+  for (let i = 0; i < 5; i++) {
+    if (i < rating) {
+      stars.push(<i key={i} className="fa-solid fa-star"></i>);
+    } else {
+      stars.push(<i key={i} className="fa-regular fa-star"></i>);
+    }
+  }
+  return stars;
+};
 
 const Testimonials = () => {
   return (
     <div className="testimonials-main">
-
       <div className="testimonials">
         <div className="testimonials-title">
           <h1 className="testimonials-title-text">Testimonials</h1>
@@ -16,63 +25,18 @@ const Testimonials = () => {
         </div>
 
         <div className="testimonials-container">
-            <div className="testimonials-card">
-              <img src={ProfilePic1} alt="Profile Picture 1" className="testimonials-card-img"/>
-              <h1 className="testimonials-card-name">Ethan Miller</h1>
-              <div className="testimonials-card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p className="testimonials-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+          {testimonials.map((testimonial) => (
+            <div className="testimonials-card" key={testimonial.id}>
+              <img className="testimonials-card-img" src={testimonial.image} alt={testimonial.name}/>
+              <h1 className="testimonials-card-name">{testimonial.name}</h1>
+              <div className="testimonials-card-stars">{renderStars(testimonial.rating)}</div>
+              <p className="testimonials-card-text">{testimonial.comment}</p>
             </div>
-            
-            <div className="testimonials-card">
-              <img src={ProfilePic2} alt="Profile Picture 1" className="testimonials-card-img"/>
-              <h1 className="testimonials-card-name">Ava Thompson</h1>
-              <div className="testimonials-card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <p className="testimonials-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-            </div>
-
-            <div className="testimonials-card">
-              <img src={ProfilePic3} alt="Profile Picture 1" className="testimonials-card-img"/>
-              <h1 className="testimonials-card-name">Mason White</h1>
-              <div className="testimonials-card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p className="testimonials-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-            </div>
-
-            <div className="testimonials-card">
-              <img src={ProfilePic4} alt="Profile Picture 1" className="testimonials-card-img"/>
-              <h1 className="testimonials-card-name">Lucas Johnson</h1>
-              <div className="testimonials-card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <p className="testimonials-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-            </div>
+          ))}
         </div>
       </div>
-
     </div>
-    
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

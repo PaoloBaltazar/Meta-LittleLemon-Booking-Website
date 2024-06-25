@@ -2,20 +2,20 @@
 
 LittleLemon is a booking website built with React to help users make reservations at their favorite restaurants. This project provides a user-friendly interface for booking tables and managing reservations.
 
-## Table of Contents
+## Overview
 
-- [Installation](#installation)
-- [Live Demo](#live-demo)
-- [Technologies Used](#technologies-used)
-- [What I Learned](#what-i-learned)
-- [Useful Resources](#useful-resources)
+### Screenshot
 
+![Little-Lemon-Home](https://github.com/PaoloBaltazar/LittleLemon-Booking-Website/assets/113003835/31d2bc99-8914-4655-9740-d958c007ab22)
+![Little-Lemon-Booking](https://github.com/PaoloBaltazar/LittleLemon-Booking-Website/assets/113003835/efc5061f-c2da-4140-a271-3df5dc282295)
 
-## Installation
+## Technologies Used
+  ⋅⋅* React
+  ⋅⋅* React Router
+  ⋅⋅* React Scroll
+  ⋅⋅* CSS Flexbox and Grid
+  ⋅⋅* Semantic HTML
+  ⋅⋅* Open Graph Protocol
 
-To get started with the project, clone the repository and install the dependencies:
-
-```bash
-git clone https://github.com/PaoloBaltazar/LittleLemon-Booking-Website.git
-cd LittleLemon-Booking-Website
-npm install
+## What I Learned
+  ⋅⋅*

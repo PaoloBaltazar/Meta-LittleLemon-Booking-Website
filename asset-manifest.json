@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Meta-LittleLemon-Booking-Website/static/css/main.2a595c0a.css",
-    "main.js": "/Meta-LittleLemon-Booking-Website/static/js/main.db454837.js",
+    "main.js": "/Meta-LittleLemon-Booking-Website/static/js/main.6622a7fc.js",
     "static/js/453.b4afe9c0.chunk.js": "/Meta-LittleLemon-Booking-Website/static/js/453.b4afe9c0.chunk.js",
     "static/media/AboutImage.jpg": "/Meta-LittleLemon-Booking-Website/static/media/AboutImage.7f44c6d6e341a27d14b3.jpg",
     "static/media/HeroImage.jpg": "/Meta-LittleLemon-Booking-Website/static/media/HeroImage.e8abf5b772b6817189aa.jpg",
@@ -20,11 +20,11 @@
     "static/media/ConfirmedCheck.svg": "/Meta-LittleLemon-Booking-Website/static/media/ConfirmedCheck.4a30fd3c46acbbff3e6b0af2ccd39ce9.svg",
     "static/media/instagram.svg": "/Meta-LittleLemon-Booking-Website/static/media/instagram.a63c9476fa83b33ffc32894544c5ccb7.svg",
     "main.2a595c0a.css.map": "/Meta-LittleLemon-Booking-Website/static/css/main.2a595c0a.css.map",
-    "main.db454837.js.map": "/Meta-LittleLemon-Booking-Website/static/js/main.db454837.js.map",
+    "main.6622a7fc.js.map": "/Meta-LittleLemon-Booking-Website/static/js/main.6622a7fc.js.map",
     "453.b4afe9c0.chunk.js.map": "/Meta-LittleLemon-Booking-Website/static/js/453.b4afe9c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a595c0a.css",
-    "static/js/main.db454837.js"
+    "static/js/main.6622a7fc.js"
   ]
 }

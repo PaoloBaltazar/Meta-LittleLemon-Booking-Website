@@ -52,7 +52,7 @@ const Main = () => {
   return (
     <main>
       <Routes>
-        <Route path="/" element={<Homepage/>}/>
+        <Route path="/Meta-LittleLemon-Booking-Website" element={<Homepage/>}/>
         <Route path="/booking" element={<BookingPage availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>}/>
         <Route path="/confirmed" element={<ConfirmedBooking/>}/>
       </Routes>

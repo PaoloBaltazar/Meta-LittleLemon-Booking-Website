@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Meta-LittleLemon-Booking-Website/static/css/main.2a595c0a.css",
+    "main.js": "/Meta-LittleLemon-Booking-Website/static/js/main.db454837.js",
+    "static/js/453.b4afe9c0.chunk.js": "/Meta-LittleLemon-Booking-Website/static/js/453.b4afe9c0.chunk.js",
+    "static/media/AboutImage.jpg": "/Meta-LittleLemon-Booking-Website/static/media/AboutImage.7f44c6d6e341a27d14b3.jpg",
+    "static/media/HeroImage.jpg": "/Meta-LittleLemon-Booking-Website/static/media/HeroImage.e8abf5b772b6817189aa.jpg",
+    "static/media/bruschetta.jpg": "/Meta-LittleLemon-Booking-Website/static/media/bruschetta.cc98b69b023d1447eeba.jpg",
+    "static/media/LucasJohnson.jpg": "/Meta-LittleLemon-Booking-Website/static/media/LucasJohnson.bb1e081a7cc95c7fb1b5.jpg",
+    "static/media/restaurant.jpg": "/Meta-LittleLemon-Booking-Website/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/greeksalad.jpg": "/Meta-LittleLemon-Booking-Website/static/media/greeksalad.25fc793faeb3d58ed9fb.jpg",
+    "static/media/FooterLogo.png": "/Meta-LittleLemon-Booking-Website/static/media/FooterLogo.2c859235d6c57bb54176.png",
+    "static/media/EthanMiller.jpg": "/Meta-LittleLemon-Booking-Website/static/media/EthanMiller.fbfab3c22f9e2adbdba9.jpg",
+    "static/media/Logo.svg": "/Meta-LittleLemon-Booking-Website/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/AvaThompson.jpg": "/Meta-LittleLemon-Booking-Website/static/media/AvaThompson.9ee923739f46b382bb5a.jpg",
+    "static/media/MasonWhite.jpg": "/Meta-LittleLemon-Booking-Website/static/media/MasonWhite.1f34c6b7c83d3b38f911.jpg",
+    "static/media/twitter.svg": "/Meta-LittleLemon-Booking-Website/static/media/twitter.1c84825285a4f9339fd385f985784504.svg",
+    "static/media/facebook.svg": "/Meta-LittleLemon-Booking-Website/static/media/facebook.df7fd48a68d79ad781717e332b5807b9.svg",
+    "index.html": "/Meta-LittleLemon-Booking-Website/index.html",
+    "static/media/ConfirmedCheck.svg": "/Meta-LittleLemon-Booking-Website/static/media/ConfirmedCheck.4a30fd3c46acbbff3e6b0af2ccd39ce9.svg",
+    "static/media/instagram.svg": "/Meta-LittleLemon-Booking-Website/static/media/instagram.a63c9476fa83b33ffc32894544c5ccb7.svg",
+    "main.2a595c0a.css.map": "/Meta-LittleLemon-Booking-Website/static/css/main.2a595c0a.css.map",
+    "main.db454837.js.map": "/Meta-LittleLemon-Booking-Website/static/js/main.db454837.js.map",
+    "453.b4afe9c0.chunk.js.map": "/Meta-LittleLemon-Booking-Website/static/js/453.b4afe9c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a595c0a.css",
+    "static/js/main.db454837.js"
+  ]
+}
